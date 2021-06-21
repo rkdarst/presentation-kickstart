@@ -31,6 +31,7 @@ The big picture
   * **Easy solution: "if you aren't ready it's not our problem, we are
     too big for you".  Often used by big centers.**
   * **We focus on helping everyone to do their work.**
+  * Environment vs diversity vs learning (a talk by me): https://www.youtube.com/watch?v=z1VS1wleN-o
 
 * Scientific Computing in Practice
 
