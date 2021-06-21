@@ -149,7 +149,10 @@ Tech setup
   * All student feedback comes through HackMD (with hundreds of people
     no student talks anyway).
 
-  .. image:: https://coderefinery.github.io/manuals/_images/mooc-diagram.png
+  .. figure:: https://coderefinery.github.io/manuals/_images/mooc-diagram.png
+
+     MOOC strategy.  Note that instructors are not in the same meeting
+     as students.
 
 * Portrait screenshare
 
@@ -159,14 +162,18 @@ Tech setup
 
   Video frame:
 
-  .. image:: img/kickstart-course-screenshot.png
+  .. figure:: img/kickstart-course-screenshot.png
      :width: 50%
+
+     A typical frame from our presentation.  The mixing is done via
+     OBS (Open Broadcaster Software), which has many nice features.
 
   Sample learner layout:
 
-  .. image:: https://coderefinery.github.io/manuals/_images/layout--learner-top.png
+  .. figure:: https://coderefinery.github.io/manuals/_images/layout--learner-top.png
      :alt: Zoom layout with screenshare on left and
 
+     A sample learner layout.  Note the right side is free for own work.
 
 Advantages
 ----------
@@ -199,7 +206,10 @@ Problems
 * Tech: Takes some getting used to, I still have to train others to do it.
 * I built a power computer to run this, many others don't have it.
 
-.. image:: img/coderefinery-workstation.jpeg
+.. figure:: img/coderefinery-workstation.jpeg
+
+   My broadcasting workstation (CodeRefinery), Kickstart slightly
+   simpler because of the streaming strategy.
 
 
 Future prospects
