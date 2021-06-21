@@ -6,11 +6,12 @@ About
 * Me
 
   * Computational researcher for 15 years
-  * Five years ago, HPC team
+  * Five years ago, joined HPC team
   * Now, usability and teaching of computing
 
 * Aalto Scientific Computing
 
+  * Aalto University, Finland
   * Small team, nine people
   * We can't really operate on an industrial scale, instead we operate
     based on passion and complementing the big people.
@@ -27,25 +28,30 @@ The big picture
   * Term I have coined
   * Computing needed by almost everyone
   * Many researchers arrive unprepared to do their work
-  * **Easy solution: "if you aren't ready it's not our issue, don't
-    support them".  Often used by big centers**
-  * **We focus on helping everyone to do their work**
+  * **Easy solution: "if you aren't ready it's not our problem, we are
+    too big for you".  Often used by big centers.**
+  * **We focus on helping everyone to do their work.**
 
 * Scientific Computing in Practice
 
   * https://scicomp.aalto.fi/training/
+  * Name for our training series.
   * Practical courses, everything from shell basics to MPI.
+  * Somewhat more focus on basics (because others handle advanced
+    better).
 
 * Hand-on scientific computing
 
   * https://handsonscicomp.readthedocs.io/
-  * Online course to fill in all gaps that anyone may have.
+  * Online course to fill in all knowledge that researchers may have.
   * Incorporates Carpentries, CodeRefinery, Kickstart, and more.
   * Not a course but a map (since everything already exists
     somewhere).
 
 * Aalto Research Software Engineers
 
+  * https://scicomp.aalto.fi/rse/
+  * Our Research Software Engineering service (my current main project).
   * When people need to do something but don't have time or skills to
     do it themselves.
 
@@ -56,7 +62,7 @@ About the kickstart course
 
 https://scicomp.aalto.fi/training/scip/summer-kickstart/
 
-* Since 2016 or so
+* Since 2014(?) or so
 * Continually refined over time
 * Starting point for new users of our HPC cluster
 
@@ -64,7 +70,7 @@ https://scicomp.aalto.fi/training/scip/summer-kickstart/
 
 * Contents (typical)
 
-  * Day 1, general background, lectures.  Rotating topics:
+  * Day 1, general background, lectures.  Rotating topics each time:
 
     * HPC crash course
     * Shell crash course
@@ -82,27 +88,29 @@ https://scicomp.aalto.fi/training/scip/summer-kickstart/
 Sharing the kickstart course
 ----------------------------
 
-* Remote work = *closer to everyone else*
+* Remote work ⇒ *closer to everyone else in the world*
 
 * Why not open our course to others, even if we use our cluster as an
-  example.
+  example?
 
   * **Con:** examples don't necessarily work out of the box.
   * **Pro:** something that other sites simply didn't have.
-  * **Pro:** many important messages outside of examples.
+  * **Pro:** many important messages are independent of the cluster.
   * *We took the opportunity to standardize our Finnish clusters a
     little bit.*
 
   * **Feedback:** even though there are some difficulties, people
     really, really liked having it available.
 
-* Timeline
+* Timeline of sharing
 
   * June 2020: Online, joint with others in Finland.  Other countries
     invited (via CodeRefinery).
-  * February 2021: developed with general day 1, day 2 open.
+  * February 2021: developed with general day 1, day 2-3 open.  First
+    MOOC course.
   * June 2021: MOOC, fully streamed, distributed.
 
+    * 260 registered → 200 people on day 1 → 150 on day 3.
 
 
 Current teaching strategy
@@ -112,9 +120,9 @@ Current teaching strategy
 * Realize there are different levels of people
 
   * Some want to watch passively, they need to learn conventions of
-    the community before they dive in
-  * Some want to do examples
-  * Some are quite advanced
+    the community before they dive in.
+  * Some want to do examples.
+  * Some are quite advanced and will move forward quickly.
 
 * Co-teaching.
 
@@ -163,10 +171,20 @@ Tech setup
 Advantages
 ----------
 
+.. admonition:: Feedback sample
+
+   I attended several "top" conferences/workshops/seminars as well as
+   videolectures this past year in their virtual implementations, and this
+   event is easily the best out of all of them when it comes down to
+   presentations and audience participation!
+
+
 * HackMD is a much better tool for answering questions.
 * No privacy concerns behind recordings, recording comes same day.
 * We can allow anyone to watch while not giving out Zoom link
   publicly.
+* Videos available immediately for instant replay (Twitch instant +
+  YouTube soon)
 * Instructor backchannel talk does not interfere with learners.
 * Instructor workload reduced.
 * Team teaching is much, much more engaging
@@ -181,6 +199,7 @@ Problems
 * Tech: Takes some getting used to, I still have to train others to do it.
 * I built a power computer to run this, many others don't have it.
 
+.. image:: img/coderefinery-workstation.jpeg
 
 
 Future prospects
