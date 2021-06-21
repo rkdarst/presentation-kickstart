@@ -115,7 +115,7 @@ Sharing the kickstart course
 
 Current teaching strategy
 -------------------------
-* A lot like CodeRefinery
+* A lot like CodeRefinery.
 * We try to be interactive and have examples.
 * Realize there are different levels of people
 
@@ -214,10 +214,17 @@ Problems
 
 Future prospects
 ----------------
-- We will probably keep going with this strategy for our large courses.
+- We will probably keep going with this strategy for our large
+  courses.
+
+  - There is really no reason not to invite the whole world.
+
 - Any other site may recommend users to attend our course
 
-  - Or make their own breakout rooms to help with us.
+  - Only watch, no breakout rooms.
+  - Make their own Zoom meeting for breakout rooms, no need to
+    coordinate with us.
+  - Join our Zoom meeting.
 
 - Standardize clusters some?
 
