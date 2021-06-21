@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = '{{Presentation Name}}'
-copyright = '2021, {{Author Name}}'
-author = '{{Author Name}}'
+project = 'Aalto Scientific Computing kickstart presentations'
+copyright = '2021, Richard Darst'
+author = 'Richard Darst'
 
 
 # -- General configuration ---------------------------------------------------
