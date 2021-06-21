@@ -20,6 +20,7 @@
 project = 'Aalto Scientific Computing kickstart presentations'
 copyright = '2021, Richard Darst'
 author = 'Richard Darst'
+root_doc = 'index'
 
 
 # -- General configuration ---------------------------------------------------
