@@ -93,6 +93,9 @@ Sharing the kickstart course
   * *We took the opportunity to standardize our Finnish clusters a
     little bit.*
 
+  * **Feedback:** even though there are some difficulties, people
+    really, really liked having it available.
+
 * Timeline
 
   * June 2020: Online, joint with others in Finland.  Other countries
@@ -113,14 +116,22 @@ Current teaching strategy
   * Some want to do examples
   * Some are quite advanced
 
+* Co-teaching.
 
+  * https://coderefinery.github.io/manuals/team-teaching/
+  * Never teach alone.  Every lesson has two people teaching as a discussion.
+
+
+* HackMD for questions.
+
+  * https://coderefinery.github.io/manuals/hackmd-mechanics/
+  * https://coderefinery.github.io/manuals/hackmd-helper/
+  * Voice doesn't scale.  Chat doesn't scale
 
 Tech setup
 ----------
 * CodeRefinery MOOC:
   https://coderefinery.github.io/manuals/coderefinery-mooc/
-
-  .. image:: https://coderefinery.github.io/manuals/_images/mooc-diagram.png
 
   * There is *not* one Zoom meeting, instead "TV studio" and
     "audience"
@@ -130,30 +141,68 @@ Tech setup
   * All student feedback comes through HackMD (with hundreds of people
     no student talks anyway).
 
+  .. image:: https://coderefinery.github.io/manuals/_images/mooc-diagram.png
+
+* Portrait screenshare
+
+  * I believe that portrait is the way to go no
+  * Half the screen for the attendees to do their own work.
+  * Even in this presentation, you will be doing other things anyway.
+
+  Video frame:
+
+  .. image:: img/kickstart-course-screenshot.png
+     :width: 50%
+
+  Sample learner layout:
+
+  .. image:: https://coderefinery.github.io/manuals/_images/layout--learner-top.png
+     :alt: Zoom layout with screenshare on left and
 
 
-Benefits
---------
-
-Advantages:
+Advantages
+----------
 
 * HackMD is a much better tool for answering questions.
 * No privacy concerns behind recordings, recording comes same day.
 * We can allow anyone to watch while not giving out Zoom link
   publicly.
+* Instructor backchannel talk does not interfere with learners.
+* Instructor workload reduced.
+* Team teaching is much, much more engaging
+* The course is overall fun to give
+
 
 
 Problems
 --------
 
-Disadvantages:
-
-* Course: always a bit of problems with incompatible sites.
+* Always a bit of problems with incompatible sites.
 * Tech: Takes some getting used to, I still have to train others to do it.
+* I built a power computer to run this, many others don't have it.
+
 
 
 Future prospects
 ----------------
-- Generic platform or localized?
-- Generic days and local days?
+- We will probably keep going with this strategy for our large courses.
+- Any other site may recommend users to attend our course
 
+  - Or make their own breakout rooms to help with us.
+
+- Standardize clusters some?
+
+  - Make sensible defaults so that generic examples *will* work
+    across clusters.  *documentation-driver cluster design**.
+
+
+Questions:
+
+- Generic course or localized?
+- Add in local-specific days in conjunction with generic days?
+- Can we combine even more, internationally?
+- Is CodeRefinery a platform for this?
+
+Problems:
+
+- Tech setup needs to be moved to cloud somehow (off my desktop)

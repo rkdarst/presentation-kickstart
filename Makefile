@@ -30,3 +30,9 @@ gh-pages-push:
 	git checkout gh-pages
 	git commit --allow-empty -m 'empty commit'
 	git push origin gh-pages
+
+gh-pages: clean dirhtml
+	git worktree add _build/gh-pages/ -b gh-pages-new
+	rsync -ai _build/dirhtml/ _build/gh-pages/
+	git -C _build/gh-pages/ commit -a -m "autocommit of gh-pages"
+	git -C _build/gh-pages/ push origin HEAD:origin/gh-pages
