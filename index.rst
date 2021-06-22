@@ -31,7 +31,8 @@ The big picture
   * **Easy solution: "if you aren't ready it's not our problem, we are
     too big for you".  Often used by big centers.**
   * **We focus on helping everyone to do their work.**
-  * Environment vs diversity vs learning (a talk by me): https://www.youtube.com/watch?v=z1VS1wleN-o
+  * Environment vs diversity vs learning (a talk by me):
+    https://www.youtube.com/watch?v=z1VS1wleN-o
 
 * Scientific Computing in Practice
 
@@ -125,17 +126,24 @@ Current teaching strategy
   * Some want to do examples.
   * Some are quite advanced and will move forward quickly.
 
-* Co-teaching.
+* Co-teaching
 
   * https://coderefinery.github.io/manuals/team-teaching/
-  * Never teach alone.  Every lesson has two people teaching as a discussion.
+  * Never teach alone.  Every lesson has two people teaching as a
+    discussion.
+  * This is a key to making things interactive and exciting when you
+    have a large audience (and probably a small one, too).
 
 
 * HackMD for questions.
 
   * https://coderefinery.github.io/manuals/hackmd-mechanics/
   * https://coderefinery.github.io/manuals/hackmd-helper/
-  * Voice doesn't scale.  Chat doesn't scale
+  * Voice doesn't scale.  Chat doesn't scale.
+  * HackMD is like a log: always write at bottom.  Others comment to
+    answer questions.
+  * Answers saved for future reference (and so you don't have to
+    follow it during the course).
 
 Tech setup
 ----------
@@ -157,9 +165,10 @@ Tech setup
 
 * Portrait screenshare
 
-  * I believe that portrait is the way to go no
+  * I believe that portrait is the way to go.
   * Half the screen for the attendees to do their own work.
-  * Even in this presentation, you will be doing other things anyway.
+  * Even in other presentations such as this one, you will probably do
+    something else anyway and may as well make the multitasking easy.
 
   Video frame:
 
@@ -187,30 +196,35 @@ Advantages
    presentations and audience participation!
 
 
-* HackMD is a much better tool for answering questions.
-* No privacy concerns behind recordings, recording comes same day.
+* HackMD is a much better tool for audience interaction and answering
+  questions.
+* No privacy concerns behind recordings, recording is published the
+  same day because no editing needed.
 * We can allow anyone to watch while not giving out Zoom link
   publicly.
-* Videos available immediately for instant replay (Twitch instant +
-  YouTube soon)
-* Instructor backchannel talk does not interfere with learners.
-* Instructor workload reduced.
-* Team teaching is much, much more engaging
-* The course is overall fun to give
+* Videos available immediately for instant review and catching up
+  (Twitch instant + YouTube soon)
+* Instructor backchannel talk during breaks does not reach the
+  audience.
+* Instructor workload reduced because number increases with scaling.
+* Team teaching is much, much more engaging.
+* The course is overall fun to give.
 
 
 
 Problems
 --------
 
-* Always a bit of problems with incompatible sites.
-* Tech: Takes some getting used to, I still have to train others to do it.
+* HPC teaching always a bit of problems with incompatible clusters.
+* Tech setup: Takes some getting used to, I still have to train others
+  to do it.
 * I built a power computer to run this, many others don't have it.
 
 .. figure:: img/coderefinery-workstation.jpeg
 
-   My broadcasting workstation (CodeRefinery), Kickstart slightly
-   simpler because of the streaming strategy.
+   My broadcasting workstation during a CodeRefinery workshop.  For
+   Kickstart it was slightly simpler even though I was teaching,
+   because I was only in the instructor Zoom meeting.
 
 
 Future prospects
@@ -220,23 +234,28 @@ Future prospects
 
   - There is really no reason not to invite the whole world.
 
-- Any other site may recommend users to attend our course
+  - HackMD allows silent participation, for example in an office with
+    headphones.
 
-  - Only watch, no breakout rooms.
+- Any other site may recommend users to attend our courses via:
+
+  - Only watching, no breakout rooms.
   - Make their own Zoom meeting for breakout rooms, no need to
     coordinate with us.
   - Join our Zoom meeting.
 
-- Standardize clusters some?
+- For HPC teaching, can we standardize clusters some?
 
   - Make sensible defaults so that generic examples *will* work
     across clusters.  *documentation-driver cluster design**.
+  - Even if we don't do this, others can benefit from our course.
 
 
 Questions:
 
-- Generic course or localized?
-- Add in local-specific days in conjunction with generic days?
+- Do we run generic courses or localized?
+- Add in local-specific days in conjunction with generic teaching
+  days?
 - Can we combine even more, internationally?
 - Is CodeRefinery a platform for this?
 
